@@ -12,6 +12,7 @@ function build_despot(p::DESPOTPlanner, b_0)
         trial += 1
     end
 
+    println("NUM TRIALS : ",trial)
     return D
 end
 
